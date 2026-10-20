@@ -1,0 +1,5 @@
+# Keep the data files byte for byte as committed, so the notebook's SHA-256
+# checks match on every operating system.
+*.zip binary
+*.jpg binary
+data/*.csv -text

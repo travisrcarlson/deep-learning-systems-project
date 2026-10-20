@@ -1,0 +1,20 @@
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local test copies of the executed notebook
+executed_*.ipynb
+
+# The optional 3.9 GB source archive and the crops rebuilt from it (see the notebook, section 3.1)
+data/CTX_UXO_DS_v2_2025.zip
+rebuilt_crops/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
